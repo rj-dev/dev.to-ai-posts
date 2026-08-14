@@ -1,0 +1,12 @@
+{
+  "name": "devto-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fully automated twice-weekly dev.to publishing pipeline",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "publish": "node scripts/generate-and-publish.js"
+  }
+}

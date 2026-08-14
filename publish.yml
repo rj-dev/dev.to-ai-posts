@@ -1,0 +1,34 @@
+name: Publish dev.to post
+
+on:
+  schedule:
+    # 09:00 UTC every Monday and Thursday
+    - cron: '0 9 * * 1,4'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate and publish article
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+        run: node scripts/generate-and-publish.js
+
+      - name: Commit updated content queue
+        run: |
+          git config user.name "devto-bot"
+          git config user.email "actions@github.com"
+          git add content-queue.json
+          git diff --cached --quiet || git commit -m "chore: mark topic as published"
+          git push

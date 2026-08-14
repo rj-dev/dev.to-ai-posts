@@ -1,0 +1,35 @@
+{
+  "queue": [
+    {
+      "id": "structured-logging",
+      "title": "Adding Structured Logging to a Production Node.js API",
+      "context": "Moving minimalist-feedback-api from console.log to structured logging (e.g. pino/winston): why it matters, what changed, lessons learned.",
+      "status": "published"
+    },
+    {
+      "id": "rate-limiting",
+      "title": "Rate Limiting a Node.js API the Right Way",
+      "context": "Adding rate limiting to minimalist-feedback-api: approach chosen, trade-offs, what broke first.",
+      "status": "published"
+    },
+    {
+      "id": "jwt-refresh-tokens",
+      "title": "Implementing JWT Refresh Tokens Without Overengineering It",
+      "context": "Adding refresh token support to minimalist-feedback-api's auth: design decisions and pitfalls.",
+      "status": "published"
+    },
+    {
+      "id": "postgres-migration",
+      "title": "Migrating a Small Node.js API to PostgreSQL",
+      "context": "Moving minimalist-feedback-api's data layer to PostgreSQL: migration strategy, gotchas, what I'd do differently.",
+      "status": "published"
+    },
+    {
+      "id": "ci-cd",
+      "title": "Setting Up CI/CD for a Solo Node.js Side Project",
+      "context": "Adding a CI/CD pipeline to minimalist-feedback-api as a solo maintainer: what's worth automating and what isn't.",
+      "status": "published"
+    }
+  ],
+  "published": []
+}

@@ -3,11 +3,11 @@ name: Publish dev.to post
 on:
   schedule:
     # 09:00 UTC every Monday and Thursday
-    - cron: "0 9 * * 1,4"
+    - cron: '0 9 * * 1,4'
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Dry run (generate only, do not publish)"
+        description: 'Dry run (generate only, do not publish)'
         required: false
         default: true
         type: boolean
@@ -23,7 +23,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
 
       - name: Generate and publish article
         env:
@@ -37,5 +37,9 @@ jobs:
           git config user.name "devto-bot"
           git config user.email "actions@github.com"
           git add content-queue.json
-          git diff --cached --quiet || git commit -m "chore: update content queue"
-          git diff --cached --quiet || git push
+          if git diff --cached --quiet; then
+            echo "No changes to content-queue.json - nothing to commit."
+          else
+            git commit -m "chore: update content queue"
+            git push
+          fi

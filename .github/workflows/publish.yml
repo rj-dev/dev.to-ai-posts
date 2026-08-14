@@ -3,8 +3,14 @@ name: Publish dev.to post
 on:
   schedule:
     # 09:00 UTC every Monday and Thursday
-    - cron: '0 9 * * 1,4'
-  workflow_dispatch: {}
+    - cron: "0 9 * * 1,4"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (generate only, do not publish)"
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
@@ -17,12 +23,13 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Generate and publish article
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
         run: node scripts/generate-and-publish.js
 
       - name: Commit updated content queue
@@ -30,5 +37,5 @@ jobs:
           git config user.name "devto-bot"
           git config user.email "actions@github.com"
           git add content-queue.json
-          git diff --cached --quiet || git commit -m "chore: mark topic as published"
-          git push
+          git diff --cached --quiet || git commit -m "chore: update content queue"
+          git diff --cached --quiet || git push

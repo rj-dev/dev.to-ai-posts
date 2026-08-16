@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 /**
  * Twice-weekly dev.to auto-publisher.
  *

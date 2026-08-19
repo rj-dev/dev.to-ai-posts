@@ -46,7 +46,7 @@
       "id": "trend-1786737874430-2",
       "title": "Your API Doesn't Have an AI Problem, It Has a Design Problem",
       "context": "Argues that bolting AI features onto a poorly modeled REST API just exposes bad architecture faster, using schema and endpoint decisions from minimalist-feedback-api as a concrete case study.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1786737874430-3",
@@ -72,6 +72,12 @@
       "title": "Rate Limiting Lessons From a 100K-Request Meltdown",
       "url": "https://dev.to/renato_silva_71eef0fc385f/rate-limiting-lessons-from-a-100k-request-meltdown-7h0",
       "publishedAt": "2026-08-14T20:05:16.719Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Your API Doesn't Have an AI Problem, It Has a Design Problem",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/your-api-doesnt-have-an-ai-problem-it-has-a-design-problem-1l5f",
+      "publishedAt": "2026-08-19T19:48:44.373Z",
       "source": "trend-discovery"
     }
   ]

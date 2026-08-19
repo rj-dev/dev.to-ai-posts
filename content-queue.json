@@ -40,7 +40,7 @@
       "id": "trend-1786737874430-1",
       "title": "Building a Gatekeeper Middleware Before You Let an AI Agent Touch Your API",
       "context": "A practical Node.js middleware pattern for scoping, auditing, and rate-limiting AI agent requests hitting backend endpoints, inspired by the growing 'don't trust AI agents with tools' conversation.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1786737874430-2",

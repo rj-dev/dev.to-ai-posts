@@ -58,7 +58,7 @@
       "id": "trend-1786737874430-4",
       "title": "Graph Search Isn't Just an Interview Question: Finding Related Feedback With BFS",
       "context": "Rides the 'graph search / six degrees' hype to justify implementing a real BFS-based 'related feedback threads' feature on top of a Node/Postgres API, including complexity trade-offs at small scale.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1786737874430-5",
@@ -84,6 +84,12 @@
       "title": "Why I Started Rejecting My Own Giant PRs on a Solo Project",
       "url": "https://dev.to/renato_silva_71eef0fc385f/why-i-started-rejecting-my-own-giant-prs-on-a-solo-project-20ao",
       "publishedAt": "2026-08-20T09:28:25.376Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Graph Search Isn't Just a LeetCode Trick: BFS in Prod",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/graph-search-isnt-just-a-leetcode-trick-bfs-in-prod-5g2c",
+      "publishedAt": "2026-08-24T09:40:56.988Z",
       "source": "trend-discovery"
     }
   ]

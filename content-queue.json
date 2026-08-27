@@ -64,7 +64,7 @@
       "id": "trend-1786737874430-5",
       "title": "SSE vs WebSockets vs Polling: Syncing Real-Time State Across Clients From the Backend",
       "context": "Flips the trending client-side BroadcastChannel trick server-side, comparing how to actually push consistent state to multiple connected clients from a Node API with a minimal working example and honest trade-offs.",
-      "status": "pending"
+      "status": "published"
     }
   ],
   "published": [
@@ -90,6 +90,12 @@
       "title": "Graph Search Isn't Just a LeetCode Trick: BFS in Prod",
       "url": "https://dev.to/renato_silva_71eef0fc385f/graph-search-isnt-just-a-leetcode-trick-bfs-in-prod-5g2c",
       "publishedAt": "2026-08-24T09:40:56.988Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "SSE vs WebSockets vs Polling: Real-Time Sync From the Backend",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/sse-vs-websockets-vs-polling-real-time-sync-from-the-backend-4hgc",
+      "publishedAt": "2026-08-27T19:23:10.697Z",
       "source": "trend-discovery"
     }
   ]

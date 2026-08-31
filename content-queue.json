@@ -65,6 +65,42 @@
       "title": "SSE vs WebSockets vs Polling: Syncing Real-Time State Across Clients From the Backend",
       "context": "Flips the trending client-side BroadcastChannel trick server-side, comparing how to actually push consistent state to multiple connected clients from a Node API with a minimal working example and honest trade-offs.",
       "status": "published"
+    },
+    {
+      "id": "trend-1788194295791-0",
+      "title": "Git Worktrees Are the Missing Piece for Parallel AI Coding Agents",
+      "context": "With everyone running multiple AI coding sessions at once, git worktrees solve the branch-juggling mess better than stashing or cloning repos twice, but they come with their own gotchas around shared caches and IDE indexing.",
+      "status": "published"
+    },
+    {
+      "id": "trend-1788194295791-1",
+      "title": "I Profiled 1M Goroutines So You Don't Have to: A pprof Walkthrough",
+      "context": "A hands-on look at using go tool pprof and runtime.MemStats to actually diagnose where goroutine memory goes, contrasting stack growth vs scheduler overhead as distinct cost centers.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1788194295791-2",
+      "title": "Building an SSH Tunnel Manager in Rust: CLI vs Native GUI Trade-offs",
+      "context": "Inspired by the Swift macOS tunnel manager trend, this compares building the same tool as a cross-platform Rust CLI versus a native app, weighing distribution friction against platform polish.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1788194295791-3",
+      "title": "NPU, DPU, QPU: Which One Actually Belongs in Your Stack Today",
+      "context": "Cutting through the hype-chip alphabet soup to look at real workloads (on-device inference, network offload, and quantum experimentation) and where each chip genuinely earns its keep versus just running on a CPU/GPU fine.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1788194295791-4",
+      "title": "Your AI Code Reviewer Needs a Test Suite Too",
+      "context": "A practical approach to building a golden-diff regression suite that feeds known-bad PRs to your AI reviewer and asserts it actually flags them, treating the reviewer itself as untested production code.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1788194295791-5",
+      "title": "Riverpod vs Bloc for Async Boundaries: Fixing the FutureBuilder Anti-Pattern",
+      "context": "Digs into why sprinkling FutureBuilder/StreamBuilder through widget trees creates hidden rebuild bugs, and compares two concrete state-management alternatives for pushing async logic away from views.",
+      "status": "pending"
     }
   ],
   "published": [
@@ -96,6 +132,12 @@
       "title": "SSE vs WebSockets vs Polling: Real-Time Sync From the Backend",
       "url": "https://dev.to/renato_silva_71eef0fc385f/sse-vs-websockets-vs-polling-real-time-sync-from-the-backend-4hgc",
       "publishedAt": "2026-08-27T19:23:10.697Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Git Worktrees: The Missing Piece for Parallel AI Agents",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/git-worktrees-the-missing-piece-for-parallel-ai-agents-10lm",
+      "publishedAt": "2026-08-31T16:38:50.248Z",
       "source": "trend-discovery"
     }
   ]

@@ -76,7 +76,7 @@
       "id": "trend-1788194295791-1",
       "title": "I Profiled 1M Goroutines So You Don't Have to: A pprof Walkthrough",
       "context": "A hands-on look at using go tool pprof and runtime.MemStats to actually diagnose where goroutine memory goes, contrasting stack growth vs scheduler overhead as distinct cost centers.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1788194295791-2",
@@ -138,6 +138,12 @@
       "title": "Git Worktrees: The Missing Piece for Parallel AI Agents",
       "url": "https://dev.to/renato_silva_71eef0fc385f/git-worktrees-the-missing-piece-for-parallel-ai-agents-10lm",
       "publishedAt": "2026-08-31T16:38:50.248Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "I Profiled 1M Goroutines So You Don't Have to",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/i-profiled-1m-goroutines-so-you-dont-have-to-40ba",
+      "publishedAt": "2026-09-14T15:35:12.451Z",
       "source": "trend-discovery"
     }
   ]

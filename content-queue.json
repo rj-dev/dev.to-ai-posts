@@ -82,7 +82,7 @@
       "id": "trend-1788194295791-2",
       "title": "Building an SSH Tunnel Manager in Rust: CLI vs Native GUI Trade-offs",
       "context": "Inspired by the Swift macOS tunnel manager trend, this compares building the same tool as a cross-platform Rust CLI versus a native app, weighing distribution friction against platform polish.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1788194295791-3",
@@ -144,6 +144,12 @@
       "title": "I Profiled 1M Goroutines So You Don't Have to",
       "url": "https://dev.to/renato_silva_71eef0fc385f/i-profiled-1m-goroutines-so-you-dont-have-to-40ba",
       "publishedAt": "2026-09-14T15:35:12.451Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "SSH Tunnel Manager in Rust: CLI vs Native GUI Trade-offs",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/ssh-tunnel-manager-in-rust-cli-vs-native-gui-trade-offs-47e5",
+      "publishedAt": "2026-09-17T14:02:56.921Z",
       "source": "trend-discovery"
     }
   ]

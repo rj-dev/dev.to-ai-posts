@@ -88,7 +88,7 @@
       "id": "trend-1788194295791-3",
       "title": "NPU, DPU, QPU: Which One Actually Belongs in Your Stack Today",
       "context": "Cutting through the hype-chip alphabet soup to look at real workloads (on-device inference, network offload, and quantum experimentation) and where each chip genuinely earns its keep versus just running on a CPU/GPU fine.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1788194295791-4",
@@ -150,6 +150,12 @@
       "title": "SSH Tunnel Manager in Rust: CLI vs Native GUI Trade-offs",
       "url": "https://dev.to/renato_silva_71eef0fc385f/ssh-tunnel-manager-in-rust-cli-vs-native-gui-trade-offs-47e5",
       "publishedAt": "2026-09-17T14:02:56.921Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "NPU, DPU, QPU: Which One Actually Belongs in Your Stack",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/npu-dpu-qpu-which-one-actually-belongs-in-your-stack-3a07",
+      "publishedAt": "2026-09-21T15:35:37.362Z",
       "source": "trend-discovery"
     }
   ]

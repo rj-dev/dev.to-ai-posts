@@ -94,7 +94,7 @@
       "id": "trend-1788194295791-4",
       "title": "Your AI Code Reviewer Needs a Test Suite Too",
       "context": "A practical approach to building a golden-diff regression suite that feeds known-bad PRs to your AI reviewer and asserts it actually flags them, treating the reviewer itself as untested production code.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1788194295791-5",
@@ -156,6 +156,12 @@
       "title": "NPU, DPU, QPU: Which One Actually Belongs in Your Stack",
       "url": "https://dev.to/renato_silva_71eef0fc385f/npu-dpu-qpu-which-one-actually-belongs-in-your-stack-3a07",
       "publishedAt": "2026-09-21T15:35:37.362Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Your AI Code Reviewer Needs a Test Suite Too",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/your-ai-code-reviewer-needs-a-test-suite-too-4g41",
+      "publishedAt": "2026-09-24T13:58:18.034Z",
       "source": "trend-discovery"
     }
   ]

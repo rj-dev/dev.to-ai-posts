@@ -100,7 +100,7 @@
       "id": "trend-1788194295791-5",
       "title": "Riverpod vs Bloc for Async Boundaries: Fixing the FutureBuilder Anti-Pattern",
       "context": "Digs into why sprinkling FutureBuilder/StreamBuilder through widget trees creates hidden rebuild bugs, and compares two concrete state-management alternatives for pushing async logic away from views.",
-      "status": "pending"
+      "status": "published"
     }
   ],
   "published": [
@@ -162,6 +162,12 @@
       "title": "Your AI Code Reviewer Needs a Test Suite Too",
       "url": "https://dev.to/renato_silva_71eef0fc385f/your-ai-code-reviewer-needs-a-test-suite-too-4g41",
       "publishedAt": "2026-09-24T13:58:18.034Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Riverpod vs Bloc: Fixing the FutureBuilder Anti-Pattern",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/riverpod-vs-bloc-fixing-the-futurebuilder-anti-pattern-30d4",
+      "publishedAt": "2026-10-01T15:55:35.376Z",
       "source": "trend-discovery"
     }
   ]

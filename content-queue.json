@@ -101,6 +101,42 @@
       "title": "Riverpod vs Bloc for Async Boundaries: Fixing the FutureBuilder Anti-Pattern",
       "context": "Digs into why sprinkling FutureBuilder/StreamBuilder through widget trees creates hidden rebuild bugs, and compares two concrete state-management alternatives for pushing async logic away from views.",
       "status": "published"
+    },
+    {
+      "id": "trend-1791475393319-0",
+      "title": "Turning `git log` Into Art: Building a Contribution-Graph City Generator",
+      "context": "A technical walkthrough of parsing git commit history into a data structure and rendering it as procedural ASCII/SVG art, covering the trade-offs between accuracy (real commit density) and visual appeal (building height curves, color buckets).",
+      "status": "published"
+    },
+    {
+      "id": "trend-1791475393319-1",
+      "title": "Hacktoberfest From the Maintainer's Side: Why We Started Closing PRs Faster",
+      "context": "A maintainer's perspective on the quality-vs-quantity trade-off during Hacktoberfest, including the specific CI checks, labeling rules, and bot filters used to separate genuine contributions from spam.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1791475393319-2",
+      "title": "I Built an Eval Harness to Test Whether AI Agents Actually Notice Red Flags",
+      "context": "A practical guide to constructing a reproducible test suite for agentic LLM behavior, covering prompt injection of contextual warnings, scoring 'noticing' vs 'acting', and why LLM-as-judge grading is shakier than it looks.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1791475393319-3",
+      "title": "TabPFN vs Gradient Boosting: Picking a Model for Tiny Medical Datasets",
+      "context": "A hands-on comparison of TabPFN against XGBoost/LightGBM on small, noisy tabular health data, weighing training speed and few-shot performance against interpretability and deployment constraints.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1791475393319-4",
+      "title": "Running a Coaching LLM Entirely in the Browser: What WebGPU Actually Costs You",
+      "context": "An exploration of shipping a small quantized model client-side for a real-time feedback tool, covering load time, memory ceilings, and where a server round-trip still wins despite the privacy upside.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1791475393319-5",
+      "title": "TypeScript's Biggest Lie: Your Types Don't Exist at Runtime",
+      "context": "A deep dive into why fully-typed TypeScript still breaks in production from untyped API responses and JSON parsing, comparing Zod, io-ts, and manual guards for closing the gap, with benchmarks on validation overhead.",
+      "status": "pending"
     }
   ],
   "published": [
@@ -168,6 +204,12 @@
       "title": "Riverpod vs Bloc: Fixing the FutureBuilder Anti-Pattern",
       "url": "https://dev.to/renato_silva_71eef0fc385f/riverpod-vs-bloc-fixing-the-futurebuilder-anti-pattern-30d4",
       "publishedAt": "2026-10-01T15:55:35.376Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Turning `git log` Into Art: A Contribution-Graph City Generator",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/turning-git-log-into-art-a-contribution-graph-city-generator-4l1g",
+      "publishedAt": "2026-10-08T16:03:52.880Z",
       "source": "trend-discovery"
     }
   ]

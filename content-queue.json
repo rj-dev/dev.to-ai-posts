@@ -112,7 +112,7 @@
       "id": "trend-1791475393319-1",
       "title": "Hacktoberfest From the Maintainer's Side: Why We Started Closing PRs Faster",
       "context": "A maintainer's perspective on the quality-vs-quantity trade-off during Hacktoberfest, including the specific CI checks, labeling rules, and bot filters used to separate genuine contributions from spam.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1791475393319-2",
@@ -210,6 +210,12 @@
       "title": "Turning `git log` Into Art: A Contribution-Graph City Generator",
       "url": "https://dev.to/renato_silva_71eef0fc385f/turning-git-log-into-art-a-contribution-graph-city-generator-4l1g",
       "publishedAt": "2026-10-08T16:03:52.880Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Hacktoberfest From the Maintainer's Side: Faster PR Closing",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/hacktoberfest-from-the-maintainers-side-faster-pr-closing-3ob8",
+      "publishedAt": "2026-10-12T18:30:11.084Z",
       "source": "trend-discovery"
     }
   ]

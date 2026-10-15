@@ -118,7 +118,7 @@
       "id": "trend-1791475393319-2",
       "title": "I Built an Eval Harness to Test Whether AI Agents Actually Notice Red Flags",
       "context": "A practical guide to constructing a reproducible test suite for agentic LLM behavior, covering prompt injection of contextual warnings, scoring 'noticing' vs 'acting', and why LLM-as-judge grading is shakier than it looks.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1791475393319-3",
@@ -216,6 +216,12 @@
       "title": "Hacktoberfest From the Maintainer's Side: Faster PR Closing",
       "url": "https://dev.to/renato_silva_71eef0fc385f/hacktoberfest-from-the-maintainers-side-faster-pr-closing-3ob8",
       "publishedAt": "2026-10-12T18:30:11.084Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "I Built an Eval Harness to Catch AI Agents Ignoring Red Flags",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/i-built-an-eval-harness-to-catch-ai-agents-ignoring-red-flags-3m37",
+      "publishedAt": "2026-10-15T13:52:10.711Z",
       "source": "trend-discovery"
     }
   ]

@@ -124,7 +124,7 @@
       "id": "trend-1791475393319-3",
       "title": "TabPFN vs Gradient Boosting: Picking a Model for Tiny Medical Datasets",
       "context": "A hands-on comparison of TabPFN against XGBoost/LightGBM on small, noisy tabular health data, weighing training speed and few-shot performance against interpretability and deployment constraints.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1791475393319-4",
@@ -222,6 +222,12 @@
       "title": "I Built an Eval Harness to Catch AI Agents Ignoring Red Flags",
       "url": "https://dev.to/renato_silva_71eef0fc385f/i-built-an-eval-harness-to-catch-ai-agents-ignoring-red-flags-3m37",
       "publishedAt": "2026-10-15T13:52:10.711Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "TabPFN vs Gradient Boosting: Tiny Medical Datasets Showdown",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/tabpfn-vs-gradient-boosting-tiny-medical-datasets-showdown-jgc",
+      "publishedAt": "2026-10-19T16:07:03.674Z",
       "source": "trend-discovery"
     }
   ]

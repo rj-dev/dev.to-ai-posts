@@ -130,7 +130,7 @@
       "id": "trend-1791475393319-4",
       "title": "Running a Coaching LLM Entirely in the Browser: What WebGPU Actually Costs You",
       "context": "An exploration of shipping a small quantized model client-side for a real-time feedback tool, covering load time, memory ceilings, and where a server round-trip still wins despite the privacy upside.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1791475393319-5",
@@ -228,6 +228,12 @@
       "title": "TabPFN vs Gradient Boosting: Tiny Medical Datasets Showdown",
       "url": "https://dev.to/renato_silva_71eef0fc385f/tabpfn-vs-gradient-boosting-tiny-medical-datasets-showdown-jgc",
       "publishedAt": "2026-10-19T16:07:03.674Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Running a Coaching LLM in the Browser: What WebGPU Really Costs",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/running-a-coaching-llm-in-the-browser-what-webgpu-really-costs-k05",
+      "publishedAt": "2026-10-22T14:18:02.545Z",
       "source": "trend-discovery"
     }
   ]

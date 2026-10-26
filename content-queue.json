@@ -136,7 +136,7 @@
       "id": "trend-1791475393319-5",
       "title": "TypeScript's Biggest Lie: Your Types Don't Exist at Runtime",
       "context": "A deep dive into why fully-typed TypeScript still breaks in production from untyped API responses and JSON parsing, comparing Zod, io-ts, and manual guards for closing the gap, with benchmarks on validation overhead.",
-      "status": "pending"
+      "status": "published"
     }
   ],
   "published": [
@@ -234,6 +234,12 @@
       "title": "Running a Coaching LLM in the Browser: What WebGPU Really Costs",
       "url": "https://dev.to/renato_silva_71eef0fc385f/running-a-coaching-llm-in-the-browser-what-webgpu-really-costs-k05",
       "publishedAt": "2026-10-22T14:18:02.545Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "TypeScript's Biggest Lie: Your Types Don't Exist at Runtime",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/typescripts-biggest-lie-your-types-dont-exist-at-runtime-517d",
+      "publishedAt": "2026-10-26T15:44:30.847Z",
       "source": "trend-discovery"
     }
   ]

@@ -137,6 +137,42 @@
       "title": "TypeScript's Biggest Lie: Your Types Don't Exist at Runtime",
       "context": "A deep dive into why fully-typed TypeScript still breaks in production from untyped API responses and JSON parsing, comparing Zod, io-ts, and manual guards for closing the gap, with benchmarks on validation overhead.",
       "status": "published"
+    },
+    {
+      "id": "trend-1793646236466-0",
+      "title": "Surviving AWS Spot Interruptions: A Checkpointing Pattern That Actually Works",
+      "context": "A practical look at designing stateful workloads (batch jobs, training runs, queue workers) so a 2-minute spot termination notice becomes a non-event, with real interruption-handler code and checkpoint cadence trade-offs.",
+      "status": "published"
+    },
+    {
+      "id": "trend-1793646236466-1",
+      "title": "What a Leaked Private Key Teaches Us About Certificate Lifecycle Automation",
+      "context": "Using recent PKI mishaps as a jumping-off point to walk through building an automated cert rotation pipeline with ACME/Vault, and the specific failure modes that manual key handling invites.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1793646236466-2",
+      "title": "Zod, Valibot, and ArkType Under Load: Bundle Size and Parse Speed, Measured",
+      "context": "Instead of a feature checklist, this post runs actual benchmarks (bundle analyzer output, parse throughput on nested schemas) across three validation libraries to show where the trade-offs really bite.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1793646236466-3",
+      "title": "Quantize or Offload? Picking a Local LLM Strategy for a 16GB Consumer GPU",
+      "context": "A hands-on comparison of 4-bit/8-bit quantization versus CPU-GPU offloading for running mid-size open models locally, with throughput numbers and memory traces to back up the recommendation.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1793646236466-4",
+      "title": "MQTT QoS Levels Will Lie to You: Lessons from Scaling a Broker to 50k Devices",
+      "context": "A dive into how QoS 1 vs QoS 2 semantics break down under real network jitter and reconnect storms, with broker config snippets and the monitoring signals that actually predict trouble.",
+      "status": "pending"
+    },
+    {
+      "id": "trend-1793646236466-5",
+      "title": "Designing a Card Game's Turn Engine as an Explicit State Machine",
+      "context": "Inspired by indie devchallenge card games, this post builds a finite-state-machine architecture for turn phases, triggered abilities, and undo/replay in Godot, explaining why naive event callbacks fall apart at scale.",
+      "status": "pending"
     }
   ],
   "published": [
@@ -240,6 +276,12 @@
       "title": "TypeScript's Biggest Lie: Your Types Don't Exist at Runtime",
       "url": "https://dev.to/renato_silva_71eef0fc385f/typescripts-biggest-lie-your-types-dont-exist-at-runtime-517d",
       "publishedAt": "2026-10-26T15:44:30.847Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Surviving AWS Spot Interruptions With Real Checkpointing",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/surviving-aws-spot-interruptions-with-real-checkpointing-1o31",
+      "publishedAt": "2026-11-02T19:04:40.433Z",
       "source": "trend-discovery"
     }
   ]

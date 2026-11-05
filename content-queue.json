@@ -148,7 +148,7 @@
       "id": "trend-1793646236466-1",
       "title": "What a Leaked Private Key Teaches Us About Certificate Lifecycle Automation",
       "context": "Using recent PKI mishaps as a jumping-off point to walk through building an automated cert rotation pipeline with ACME/Vault, and the specific failure modes that manual key handling invites.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1793646236466-2",
@@ -282,6 +282,12 @@
       "title": "Surviving AWS Spot Interruptions With Real Checkpointing",
       "url": "https://dev.to/renato_silva_71eef0fc385f/surviving-aws-spot-interruptions-with-real-checkpointing-1o31",
       "publishedAt": "2026-11-02T19:04:40.433Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "What a Leaked Key Teaches Us About Cert Automation",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/what-a-leaked-key-teaches-us-about-cert-automation-1182",
+      "publishedAt": "2026-11-05T17:02:26.667Z",
       "source": "trend-discovery"
     }
   ]

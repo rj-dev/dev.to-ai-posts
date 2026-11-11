@@ -154,7 +154,7 @@
       "id": "trend-1793646236466-2",
       "title": "Zod, Valibot, and ArkType Under Load: Bundle Size and Parse Speed, Measured",
       "context": "Instead of a feature checklist, this post runs actual benchmarks (bundle analyzer output, parse throughput on nested schemas) across three validation libraries to show where the trade-offs really bite.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1793646236466-3",
@@ -288,6 +288,12 @@
       "title": "What a Leaked Key Teaches Us About Cert Automation",
       "url": "https://dev.to/renato_silva_71eef0fc385f/what-a-leaked-key-teaches-us-about-cert-automation-1182",
       "publishedAt": "2026-11-05T17:02:26.667Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Zod vs Valibot vs ArkType: Bundle Size and Speed, Measured",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/zod-vs-valibot-vs-arktype-bundle-size-and-speed-measured-23al",
+      "publishedAt": "2026-11-11T19:11:15.885Z",
       "source": "trend-discovery"
     }
   ]

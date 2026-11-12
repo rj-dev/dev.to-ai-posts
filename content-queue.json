@@ -160,7 +160,7 @@
       "id": "trend-1793646236466-3",
       "title": "Quantize or Offload? Picking a Local LLM Strategy for a 16GB Consumer GPU",
       "context": "A hands-on comparison of 4-bit/8-bit quantization versus CPU-GPU offloading for running mid-size open models locally, with throughput numbers and memory traces to back up the recommendation.",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": "trend-1793646236466-4",
@@ -294,6 +294,12 @@
       "title": "Zod vs Valibot vs ArkType: Bundle Size and Speed, Measured",
       "url": "https://dev.to/renato_silva_71eef0fc385f/zod-vs-valibot-vs-arktype-bundle-size-and-speed-measured-23al",
       "publishedAt": "2026-11-11T19:11:15.885Z",
+      "source": "trend-discovery"
+    },
+    {
+      "title": "Quantize or Offload? A 16GB GPU Local LLM Strategy",
+      "url": "https://dev.to/renato_silva_71eef0fc385f/quantize-or-offload-a-16gb-gpu-local-llm-strategy-1fbe",
+      "publishedAt": "2026-11-12T17:18:06.013Z",
       "source": "trend-discovery"
     }
   ]
